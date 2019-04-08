@@ -186,6 +186,10 @@ body > #main {height: auto; min-height: 100%}
   display: none;
 }
 
+a {
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   h1{
   font-size: 46px;
