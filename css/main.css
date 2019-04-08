@@ -189,6 +189,9 @@ body > #main {height: auto; min-height: 100%}
 a {
   color: white;
 }
+p {
+  text-align: justify;
+}
 
 @media only screen and (max-width: 600px) {
   h1{
@@ -229,9 +232,14 @@ a {
   #right-module{
   width: 200px;
   }
-  
-
 }
+
+@media only screen and (min-width: 1440px) {
+  #content {
+  width: 85%;
+  }
+}
+
 
 
 
