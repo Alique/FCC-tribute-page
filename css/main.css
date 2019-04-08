@@ -156,14 +156,19 @@ body > #main {height: auto; min-height: 100%}
 }
 
 #right-module{
-  background-color: #FFF;
+  
   float: right;
   color: black;
   width: 25%;
 }
 
 #img-caption{
-  padding: 0px 20px 10px 20px;
+  background-color: #FFFFFF;
+  margin-block-start: -20px;
+}
+
+#img-caption p {
+  padding: 15px 20px 10px 20px;
 }
 
 .footer{
